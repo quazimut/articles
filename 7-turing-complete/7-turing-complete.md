@@ -28,6 +28,12 @@ The machine is fairly complex but he provides images and explanation for every p
 ## 3. Minesweeper
 ![minesweeper header](/7-turing-complete/mine.jpg)
 
+Originally I was going to include Game of Life here. It's true that the final goal of Conway's game wasn't creating a turing-complete system but something organic, chaotic and therefore life-like (hence the name). But it's still a product of computation research so not unintentional enough for this article.
+
+Then I came across a [paper](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/infmsw.pdf) by Richard Kaye about Minesweeper. He compares its grid-like nature and the values contained by each cell to Game of Life and proposes that Minesweeper is turing-complete as well.
+
+The paper goes into very fine details but the essence of the concept is handling an initial state (when some tiles are visible and some not) of the Minesweeper as an instruction set for a Turing Machine and the "extension" of that grid (when every tile is visible) as the result of the computation. The actual proof is way beyond the scope of this article but if you are not afraid of maths then give the paper a try!
+
 ## 4. Music Notation
 ![music header](/7-turing-complete/muzek.png)
 
