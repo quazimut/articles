@@ -8,11 +8,12 @@ So turing-completeness is something that programming languages (real and esoteri
 
 ## 1. Manufactoria
 ![manufactoria header](/7-turing-complete/manu.png)
-Manufactoria is a game about putting robots in their place. More accurately it's a visual programming environment where you accept or reject robots based on the content of their tapes. You also need to transform their input to a valid output on some levels.
+
+[Manufactoria](http://pleasingfungus.com/Manufactoria/) is a game about putting robots in their place. More accurately it's a visual programming environment where you accept or reject robots based on the content of their tapes. You also need to transform their input to a valid output on some levels.
 
 The basic building blocks are branches to send robots to alternative directions based on the read bit, conveyors which send a robot to a pre-defined cell, and writers that add a new color-bit to the end of the tape. Starting with simple mazes the player learns how to create more and more intricate circuits. Beware! The learning curve is quite steep.
 
-It's not surprising that this game is Turing-complete. Nevertheless, it's a great place to start learning about Turing Machines and a good way to exercise the mind.
+It's not surprising that this game is [Turing-complete](http://pleasingfungus.com/?lvl=32&code=y12:2f3;r14:11f1;b11:10f2;c12:10f2;c13:10f2;p14:10f2;b15:10f2;b10:9f0;p11:9f4;c12:9f0;c13:9f1;b14:9f0;b11:8f1;c12:8f3;i13:8f0;c14:8f0;i12:7f5;c13:7f1;b14:7f3;b11:6f2;c12:6f3;c13:6f2;p14:6f2;r15:6f2;r10:5f0;p11:5f4;c12:5f0;c13:5f0;r14:5f0;r11:4f3;c12:4f3;c12:3f3;c16:10f1;c16:9f1;c16:8f1;c16:7f1;c16:6f1;c16:5f1;c16:4f1;c16:3f1;c15:2f0;c14:2f0;c16:2f0;c9:9f1;c9:8f1;c9:7f1;c9:6f1;c9:5f1;c9:4f1;c9:3f1;c9:2f2;c10:2f2;q13:2f5;q11:2f1;c11:7f2;&ctm=Rule_110;Turing_complete!;b:x;13;3;1;). Nevertheless, it's a great place to start learning about Turing Machines and a good way to exercise the mind.
 
 ## 2. Jonathan Blow's Platformer Classic: Braid
 ![braid header](/7-turing-complete/braid.png)
@@ -38,11 +39,11 @@ In 2002 Stephen Sykes released his esoteric programming language/interpreter Cho
 ## 5. Power Point
 ![ppt header](/7-turing-complete/pptm.png)
 
-(PowerPoint™ Turing Machine™)™ is the realization of a joke that got too far. First presented at SIGBOVIK, the flagship conference of the Association for Computational Heresy, Tom Wildenhain manages to turn a PowerPoint slide into a classical Turing Machine with the usage of AutoShapes, Hyperlinks and On-Click Animations. 
+(PowerPoint™ Turing Machine™)™ is the realization of a joke that got too far. First [presented](https://www.youtube.com/watch?v=uNjxe8ShM-8) at SIGBOVIK, the flagship conference of the Association for Computational Heresy, Tom Wildenhain manages to turn a PowerPoint slide into a classical Turing Machine with the usage of AutoShapes, Hyperlinks and On-Click Animations. 
 
 The unique animation support made it possible to create this machine, but the user needs to click multiple times to advance the computation, but this limitation makes it even more amusing. Cookie Clicker skills translate to a faster CPU! Programs are created by manually editing the punch cards with the builtin PP tools.
 
-If you're interested in more technical details, check out the whitepaper (typeset in PowerPoint) or download the machine itself.
+If you're interested in more technical details, check out the [whitepaper](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) (typeset in PowerPoint) or download the [machine](http://tomwildenhain.com/PowerPointTM/PowerPointTM.pptx) itself.
 
 ## 6. Rail Transportation
 ![trains header](/7-turing-complete/openttd.png)
