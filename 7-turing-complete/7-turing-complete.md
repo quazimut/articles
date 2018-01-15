@@ -18,14 +18,22 @@ He shows how to create a [counter machine](https://www.wikiwand.com/en/Counter_m
 
 The machine is fairly complex but he provides images and explanation for every part so it's not so difficult to follow along. Later he also proves that Braid is undecidable but that's not the scope of this article. If you want to know all the details I highly recommend reading the whole paper.
 
+## 41. Minesweeper
+![braid header](/7-turing-complete/mine.jpg)
+
 ## 29. Music Notation
+![braid header](/7-turing-complete/muzek.png)
 
 Who thought that even music can represent arbitrary computations?
  Well, if you made it this far you probably don't get too excited anymore (I'm sorry, I guess...). But how crazy is that? The standard notation musicians use today is more than 300 years old which predates Turing by a fair bit. Utilizing it is not as straightforward tough and requires some clever solutions.
  
 In 2002 Stephen Sykes released his esoteric programming language/interpreter Choon which needs standard music notation as an input and outputs real music in the form of a .wav file. I think the most interesting thing about it is that it doesn't use alterable storage as opposed to common programming languages. Unfortunately, his original article is not available anymore and you need the Wayback Machine to access it [original article](https://web.archive.org/web/20160316172205/http://www.stephensykes.com/choon/choon.html) but it sure worth a read.
 
+## 37. Power Point
+![braid header](/7-turing-complete/pptm.png)
+
 ## 31. Rail Transportation
+![braid header](/7-turing-complete/openttd.png)
 
 Train transportation and the infrastructure around it comes at a humongous price so it's quite understandable why we've yet to witness a turing-complete train system implementation in real life. But that doesn't mean such a thing couldn't be done and to prove it we just need a simulation platform that offers realistic building blocks and behavior that works the same as real trains. The best tool for this is [OpenTTD](https://www.openttd.org) and open source tycoon game where you can build and manage transportation systems but we obviously don't need the whole game just the trains in it.
 
