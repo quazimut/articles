@@ -8,7 +8,10 @@ But what does *turing-complete* mean anyway? It means that it can calculate anyt
 
 So turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and we should call everything turning-complete a programming language. If you look carefully enough you find it everywhere you wouldn't have expected and in this article we want to list 7 that we found the most interesting.
 
-## 13. Jonathan Blow's Platformer Classic: Braid
+## 1. Manufactoria
+![manufactoria header](/7-turing-complete/manu.png)
+
+## 2. Jonathan Blow's Platformer Classic: Braid
 ![braid header](/7-turing-complete/braid.png)
 
 First of all: if you haven't played the game, you seriously should. This is one of my all-time favorites and I was blown away when I learned that the game is not just beautifully designed with a fascinating storyline but also turing-complete. To be fair, the game isn't turing-complete as it is but rather the *game mechanics*. Linus Hamilton in his 2014 white paper, [Braid is undecidable](https://arxiv.org/pdf/1412.0784.pdf) walks us through the specific game elements we need to prove turing-completeness. These elements are: (1)monstars, (2)lever+platform, (3)one-way surfaces, (4)cannons, (5)bunnies, (6)rewinding time.
@@ -18,22 +21,22 @@ He shows how to create a [counter machine](https://www.wikiwand.com/en/Counter_m
 
 The machine is fairly complex but he provides images and explanation for every part so it's not so difficult to follow along. Later he also proves that Braid is undecidable but that's not the scope of this article. If you want to know all the details I highly recommend reading the whole paper.
 
-## 41. Minesweeper
-![braid header](/7-turing-complete/mine.jpg)
+## 3. Minesweeper
+![minesweeper header](/7-turing-complete/mine.jpg)
 
-## 29. Music Notation
-![braid header](/7-turing-complete/muzek.png)
+## 4. Music Notation
+![music header](/7-turing-complete/muzek.png)
 
 Who thought that even music can represent arbitrary computations?
  Well, if you made it this far you probably don't get too excited anymore (I'm sorry, I guess...). But how crazy is that? The standard notation musicians use today is more than 300 years old which predates Turing by a fair bit. Utilizing it is not as straightforward tough and requires some clever solutions.
  
 In 2002 Stephen Sykes released his esoteric programming language/interpreter Choon which needs standard music notation as an input and outputs real music in the form of a .wav file. I think the most interesting thing about it is that it doesn't use alterable storage as opposed to common programming languages. Unfortunately, his original article is not available anymore and you need the Wayback Machine to access it [original article](https://web.archive.org/web/20160316172205/http://www.stephensykes.com/choon/choon.html) but it sure worth a read.
 
-## 37. Power Point
-![braid header](/7-turing-complete/pptm.png)
+## 5. Power Point
+![ppt header](/7-turing-complete/pptm.png)
 
-## 31. Rail Transportation
-![braid header](/7-turing-complete/openttd.png)
+## 6. Rail Transportation
+![trains header](/7-turing-complete/openttd.png)
 
 Train transportation and the infrastructure around it comes at a humongous price so it's quite understandable why we've yet to witness a turing-complete train system implementation in real life. But that doesn't mean such a thing couldn't be done and to prove it we just need a simulation platform that offers realistic building blocks and behavior that works the same as real trains. The best tool for this is [OpenTTD](https://www.openttd.org) and open source tycoon game where you can build and manage transportation systems but we obviously don't need the whole game just the trains in it.
 
