@@ -1,10 +1,12 @@
 # Beyond esolangs: 7 things that are unintentionally turing-complete
 
+*NB: This article was co-written by [@balzss](https://steemit.com/@balzss) and is part of a series we are creating together. Half of them will be released on his blog so make sure to follow him if you find this interesting.*
+
 The time when we only put the *Turing-complete* label on efficient and productive programming languages has long gone and "esolang" as a genre has grown to be a common phenomenon. Esolangs are programming languages usually with the sole purpose of **not** being useful. They are sophisticated in-jokes for programmers usually satirizing actual languages.
 
-But what does *Turing-complete* mean anyway? It means that it can calculate anything computable which is not a satisfactory answer so let's put it this way: something is turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
+But what does *Turing-complete* mean anyway? It means that it can calculate anything computable. That's not a satisfactory answer so let's put it this way: something is Turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
 
-So Turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and we should call everything turning-complete a programming language. If you look carefully enough you find it everywhere you wouldn't have expected and in this article we want to list 7 that we found the most interesting.
+So Turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and the only canidate for that title. If you look carefully enough you'll find it everywhere you wouldn't have expected and in this article we want to list 6 that we found the most interesting.
 
 ## 1. Manufactoria
 ![manufactoria header](/7-turing-complete/manu.png)
