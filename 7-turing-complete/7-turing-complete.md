@@ -25,11 +25,11 @@ It's not surprising that this game is [Turing-complete](http://pleasingfungus.co
 <img align="right" src="/7-turing-complete/braid_info.png">First of all: if you haven't played the game, you seriously should. This is one of my all-time favorites and I was blown away when I learned that the game is not just beautifully designed with a fascinating storyline but also Turing-complete. To be fair, the game isn't Turing-complete as it is but rather the *game mechanics*. Linus Hamilton in his 2014 white paper, [Braid is undecidable](https://arxiv.org/pdf/1412.0784.pdf) walks us through the specific game elements we need to prove turing-completeness. These elements are:
 
 1. monstars
-2. lever+platform
-3. one-way surfaces
-4. cannons
-5. bunnies
-7. rewinding time.
+2. bunnies
+3. rewinding time
+4. lever+platform
+5. one-way surfaces
+6. cannons
 
 He shows how to create a [counter machine](https://www.wikiwand.com/en/Counter_machine) out of these elements which are:
 > one of the simplest types of machines known to exhibit Turing-complete behavior.
