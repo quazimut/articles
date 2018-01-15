@@ -1,7 +1,5 @@
 # Beyond esolangs: 7 things that are unintentionally turing-complete
 
-## Intro
-
 The time when we only put the *turing-complete* label on efficient and productive programming languages are long gone and "esolang" as a genre has grown to be a common phenomenon. Esolangs are programming languages usually with the sole purpose of **not** being useful. They are sophisticated in-jokes for programmers usually satirizing actual languages.
 
 But what does *turing-complete* mean anyway? It means that it can calculate anything computable which is not a satisfactory answer so let's put it this way: something is turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
@@ -10,6 +8,11 @@ So turing-completeness is something that programming languages (real and esoteri
 
 ## 1. Manufactoria
 ![manufactoria header](/7-turing-complete/manu.png)
+Manufactoria is a game about putting robots in their place. More accurately it's a visual programming environment where you accept or reject robots based on the content of their tapes. You also need to transform their input to a valid output on some levels.
+
+The basic building blocks are branches to send robots to alternative directions based on the read bit, conveyors which send a robot to a pre-defined cell, and writers that add a new color-bit to the end of the tape. Starting with simple mazes the player learns how to create more and more intricate circuits. Beware! The learning curve is quite steep.
+
+It's not surprising that this game is Turing-complete. Nevertheless, it's a great place to start learning about Turing Machines and a good way to exercise the mind.
 
 ## 2. Jonathan Blow's Platformer Classic: Braid
 ![braid header](/7-turing-complete/braid.png)
@@ -34,6 +37,12 @@ In 2002 Stephen Sykes released his esoteric programming language/interpreter Cho
 
 ## 5. Power Point
 ![ppt header](/7-turing-complete/pptm.png)
+
+(PowerPoint™ Turing Machine™)™ is the realization of a joke that got too far. First presented at SIGBOVIK, the flagship conference of the Association for Computational Heresy, Tom Wildenhain manages to turn a PowerPoint slide into a classical Turing Machine with the usage of AutoShapes, Hyperlinks and On-Click Animations. 
+
+The unique animation support made it possible to create this machine, but the user needs to click multiple times to advance the computation, but this limitation makes it even more amusing. Cookie Clicker skills translate to a faster CPU! Programs are created by manually editing the punch cards with the builtin PP tools.
+
+If you're interested in more technical details, check out the whitepaper (typeset in PowerPoint) or download the machine itself.
 
 ## 6. Rail Transportation
 ![trains header](/7-turing-complete/openttd.png)
