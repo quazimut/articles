@@ -9,6 +9,7 @@ But what does *turing-complete* mean anyway? It means that it can calculate anyt
 So turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and we should call everything turning-complete a programming language. If you look carefully enough you find it everywhere you wouldn't have expected and in this article we want to list 7 that we found the most interesting.
 
 ## 13. Jonathan Blow's Platformer Classic: Braid
+![braid header](/7-turing-complete/braid.png)
 
 First of all: if you haven't played the game, you seriously should. This is one of my all-time favorites and I was blown away when I learned that the game is not just beautifully designed with a fascinating storyline but also turing-complete. To be fair, the game isn't turing-complete as it is but rather the *game mechanics*. Linus Hamilton in his 2014 white paper, [Braid is undecidable](https://arxiv.org/pdf/1412.0784.pdf) walks us through the specific game elements we need to prove turing-completeness. These elements are: (1)monstars, (2)lever+platform, (3)one-way surfaces, (4)cannons, (5)bunnies, (6)rewinding time.
 
