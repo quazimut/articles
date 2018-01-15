@@ -1,10 +1,10 @@
 # Beyond esolangs: 7 things that are unintentionally turing-complete
 
-The time when we only put the *turing-complete* label on efficient and productive programming languages are long gone and "esolang" as a genre has grown to be a common phenomenon. Esolangs are programming languages usually with the sole purpose of **not** being useful. They are sophisticated in-jokes for programmers usually satirizing actual languages.
+The time when we only put the *Turing-complete* label on efficient and productive programming languages are long gone and "esolang" as a genre has grown to be a common phenomenon. Esolangs are programming languages usually with the sole purpose of **not** being useful. They are sophisticated in-jokes for programmers usually satirizing actual languages.
 
-But what does *turing-complete* mean anyway? It means that it can calculate anything computable which is not a satisfactory answer so let's put it this way: something is turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
+But what does *Turing-complete* mean anyway? It means that it can calculate anything computable which is not a satisfactory answer so let's put it this way: something is turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
 
-So turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and we should call everything turning-complete a programming language. If you look carefully enough you find it everywhere you wouldn't have expected and in this article we want to list 7 that we found the most interesting.
+So Turing-completeness is something that programming languages (real and esoteric) are aiming for but that doesn't mean they are some privileged creature and we should call everything turning-complete a programming language. If you look carefully enough you find it everywhere you wouldn't have expected and in this article we want to list 7 that we found the most interesting.
 
 ## 1. Manufactoria
 ![manufactoria header](/7-turing-complete/manu.png)
@@ -18,7 +18,7 @@ It's not surprising that this game is [Turing-complete](http://pleasingfungus.co
 ## 2. Jonathan Blow's Platformer Classic: Braid
 ![braid header](/7-turing-complete/braid.png)
 
-First of all: if you haven't played the game, you seriously should. This is one of my all-time favorites and I was blown away when I learned that the game is not just beautifully designed with a fascinating storyline but also turing-complete. To be fair, the game isn't turing-complete as it is but rather the *game mechanics*. Linus Hamilton in his 2014 white paper, [Braid is undecidable](https://arxiv.org/pdf/1412.0784.pdf) walks us through the specific game elements we need to prove turing-completeness. These elements are: (1)monstars, (2)lever+platform, (3)one-way surfaces, (4)cannons, (5)bunnies, (6)rewinding time.
+First of all: if you haven't played the game, you seriously should. This is one of my all-time favorites and I was blown away when I learned that the game is not just beautifully designed with a fascinating storyline but also Turing-complete. To be fair, the game isn't Turing-complete as it is but rather the *game mechanics*. Linus Hamilton in his 2014 white paper, [Braid is undecidable](https://arxiv.org/pdf/1412.0784.pdf) walks us through the specific game elements we need to prove turing-completeness. These elements are: (1)monstars, (2)lever+platform, (3)one-way surfaces, (4)cannons, (5)bunnies, (6)rewinding time.
 
 He shows how to create a [counter machine](https://www.wikiwand.com/en/Counter_machine) out of these elements which are:
 > one of the simplest types of machines known to exhibit Turing-complete behavior.
@@ -28,9 +28,9 @@ The machine is fairly complex but he provides images and explanation for every p
 ## 3. Minesweeper
 ![minesweeper header](/7-turing-complete/mine.jpg)
 
-Originally I was going to include Game of Life here. It's true that the final goal of Conway's game wasn't creating a turing-complete system but something organic, chaotic and therefore life-like (hence the name). But it's still a product of computation research so not unintentional enough for this article.
+Originally I was going to include Game of Life here. It's true that the final goal of Conway's game wasn't creating a Turing-complete system but something organic, chaotic and therefore life-like (hence the name). But it's still a product of computation research so not unintentional enough for this article.
 
-Then I came across a [paper](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/infmsw.pdf) by Richard Kaye about Minesweeper. He compares its grid-like nature and the values contained by each cell to Game of Life and proposes that Minesweeper is turing-complete as well.
+Then I came across a [paper](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/infmsw.pdf) by Richard Kaye about Minesweeper. He compares its grid-like nature and the values contained by each cell to Game of Life and proposes that Minesweeper is Turing-complete as well.
 
 The paper goes into very fine details but the essence of the concept is handling an initial state (when some tiles are visible and some not) of the Minesweeper as an instruction set for a Turing Machine and the "extension" of that grid (when every tile is visible) as the result of the computation. The actual proof is way beyond the scope of this article but if you are not afraid of maths then give the paper a try!
 
@@ -54,7 +54,7 @@ If you're interested in more technical details, check out the [whitepaper](http:
 ## 6. Rail Transportation
 ![trains header](/7-turing-complete/openttd.png)
 
-Train transportation and the infrastructure around it comes at a humongous price so it's quite understandable why we've yet to witness a turing-complete train system implementation in real life. But that doesn't mean such a thing couldn't be done and to prove it we just need a simulation platform that offers realistic building blocks and behavior that works the same as real trains. The best tool for this is [OpenTTD](https://www.openttd.org) and open source tycoon game where you can build and manage transportation systems but we obviously don't need the whole game just the trains in it.
+Train transportation and the infrastructure around it comes at a humongous price so it's quite understandable why we've yet to witness a Turing-complete train system implementation in real life. But that doesn't mean such a thing couldn't be done and to prove it we just need a simulation platform that offers realistic building blocks and behavior that works the same as real trains. The best tool for this is [OpenTTD](https://www.openttd.org) and open source tycoon game where you can build and manage transportation systems but we obviously don't need the whole game just the trains in it.
 
 The first building block is a binary full adder implemented in the game by Alienturnedhuman (the name seems accurate) who demonstrated his creation in a youtube video in early 2015. Not a full year after he released a 45 minute long [update video](https://www.youtube.com/watch?v=YyEzm1ghAsU) in which he expands his full adder with a clock, memory and whole arsenal of "connection circuits" and basically creates a working computer. Well, not so much a working computer because the video shows a work-in-progress state and only outlines the path from there to create a fully working Universal Turing Machine.
 
