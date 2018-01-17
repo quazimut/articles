@@ -1,4 +1,4 @@
-# Beyond esolangs: 7 things that are unintentionally turing-complete
+# Beyond Esolangs: 6 Things That Are Unintentionally Turing-Complete
 
 *NB: This article was co-written by [@balzss](https://steemit.com/@balzss) and is part of a series we are creating together. Half of them will be released on his blog so make sure to follow him if you find this interesting.*
 
