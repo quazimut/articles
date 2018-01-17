@@ -1,9 +1,5 @@
 # Beyond Esolangs: 6 Things That Are Unintentionally Turing-Complete
 
-*NB: This article was co-written by [@balzss](https://steemit.com/@balzss) and is part of a series we are creating together. Half of them will be released on his blog so make sure to follow him if you find this interesting.*
-
----
-
 The time when we only put the *Turing-complete* label on efficient and productive programming languages has long gone and "esolang" as a genre has grown to be a common phenomenon. Esolangs are programming languages usually with the sole purpose of **not** being useful. They are sophisticated in-jokes for programmers usually satirizing actual languages.
 
 But what does *Turing-complete* mean anyway? It means that it can calculate anything computable. That's not a satisfactory answer so let's put it this way: something is Turing-complete if it can calculate anything that a [Universal Turing Machine](https://www.wikiwand.com/en/Universal_Turing_machine) can (it turns out there is no way to go beyond that currently).
